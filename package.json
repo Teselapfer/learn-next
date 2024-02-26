@@ -1,0 +1,26 @@
+{
+  "name": "@teselapfer/learn-next",
+  "version": "0.1.0",
+  "description": "Teselapfer_'s website",
+  "type": "module", 
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "lint": "next lint",
+    "fmt": "prettier --write ."
+  },
+  "author": "teselapfer",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "framer-motion": "^11.0.6",
+    "next": "^14.1.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
+    "prettier": "^3.2.5"
+  }
+}
